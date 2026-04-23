@@ -1,0 +1,45 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.production
+
+# SSH keys
+*.pem
+*.key
+*.pub
+ssh_config
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+
+# Database backups
+*.sql
+*.sql.gz
+backups/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
